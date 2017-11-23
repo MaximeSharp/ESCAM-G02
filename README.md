@@ -66,7 +66,7 @@ DECOMPILE YOUR APK AND NAVIGATE TO THIS FILE : /smali/com/thecamhi/activity/sett
 
 OPEN IT AND GO TO THE LINE 73
 
-EDIT "http://47.91.141.20/goke_update.html" TO "http://{server_ip_address/goke_update.html"
+EDIT "http://47.91.141.20/goke_update.html" TO "http://{server_ip_address}/goke_update.html"
 
                                                 (ex: http://192.168.1.19/goke_update.html")
                                                 
