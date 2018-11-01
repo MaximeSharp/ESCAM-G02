@@ -15,7 +15,7 @@ DEBUG_FIRMWARE_ESCAM_G02 for failed updates (losing features, like ONVIF or web 
 {"url":"http://47.91.141.20/","ver":"V9.1.14.1.7"},
 {"url":"http://47.91.141.20/","ver":"V11.1.8.1.4"},
 {"url":"http://47.91.141.20/","ver":"V13.1.6.1.10"}
-]
+]}
 ```
 - Copy the content of this file to a notepad, we will need it later  
 - For our ESCAM G02, we need this firmware version : `V9.1.6.1.24`  
@@ -29,7 +29,7 @@ DEBUG_FIRMWARE_ESCAM_G02 for failed updates (losing features, like ONVIF or web 
 
 Before | After
 --|--
-{"list":[{"url":"http://47.91.141.20/","ver":"V9.1.4.1.25"},{"url":"http://47.91.141.20/","ver":"V9.1.5.1.11"},{"url":"http://47.91.141.20/","ver":"V9.1.6.1.24"},{"url":"http://47.91.141.20/","ver":"V9.1.11.1.7"},{"url":"http://47.91.141.20/","ver":"V9.1.12.1.17"},{"url":"http://47.91.141.20/","ver":"V9.1.14.1.7"},{"url":"http://47.91.141.20/","ver":"V11.1.8.1.4"},{"url":"http://47.91.141.20/","ver":"V13.1.6.1.10"}] | {"list": [{"url":"http://47.91.141.20/","ver":"V9.1.4.1.25"},{"url":"http://47.91.141.20/","ver":"V9.1.5.1.11"},{"url":"http://47.91.141.20/","ver":"V9.1.6.1.25},{"url":"http://47.91.141.20/","ver":"V9.1.11.1.7"},{"url":"http://47.91.141.20/","ver":"V9.1.12.1.17"},{"url":"http://47.91.141.20/","ver":"V9.1.14.1.7"},{"url":"http://47.91.141.20/","ver":"V11.1.8.1.4"},{"url":"http://47.91.141.20/","ver":"V13.1.6.1.10"}]}  
+{"list":[{"url":"http://47.91.141.20/","ver":"V9.1.4.1.25"},{"url":"http://47.91.141.20/","ver":"V9.1.5.1.11"},{"url":"http://47.91.141.20/","ver":"V9.1.6.1.24"},{"url":"http://47.91.141.20/","ver":"V9.1.11.1.7"},{"url":"http://47.91.141.20/","ver":"V9.1.12.1.17"},{"url":"http://47.91.141.20/","ver":"V9.1.14.1.7"},{"url":"http://47.91.141.20/","ver":"V11.1.8.1.4"},{"url":"http://47.91.141.20/","ver":"V13.1.6.1.10"}]} | {"list": [{"url":"http://47.91.141.20/","ver":"V9.1.4.1.25"},{"url":"http://47.91.141.20/","ver":"V9.1.5.1.11"},{"url":"http://47.91.141.20/","ver":"V9.1.6.1.25},{"url":"http://47.91.141.20/","ver":"V9.1.11.1.7"},{"url":"http://47.91.141.20/","ver":"V9.1.12.1.17"},{"url":"http://47.91.141.20/","ver":"V9.1.14.1.7"},{"url":"http://47.91.141.20/","ver":"V11.1.8.1.4"},{"url":"http://47.91.141.20/","ver":"V13.1.6.1.10"}]}  
 - Save and exit, and then, copy the firmware file `V9.1.6.1.24.exe` and rename it with the same version number that you define in the  file `goke_update.html` (in my case, `V9.1.6.1.25.exe`)  
 
 ### STEP 3 - CAMHI APP -> EXTRACT, DECOMPILE, EDIT, RECOMPILE 
