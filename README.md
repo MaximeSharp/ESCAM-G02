@@ -32,7 +32,7 @@ PLACE AT THE WWW FOLDER THE FILES "goke_update.html" AND "V9.1.6.1.24.exe"
 RENAME THE FILE "V9.1.6.1.24.exe" TO "V9.1.6.1.25.exe"
 OPEN AND EDIT THE FILE "goke_update.html" :
  
->({"list": [
+>{"list": [
 >{"url":"http://47.91.141.20/","ver":"V9.1.4.1.25"},
 >{"url":"http://47.91.141.20/","ver":"V9.1.5.1.11"},
 >{"url":"http://47.91.141.20/","ver":"V9.1.6.1.25"},
@@ -41,7 +41,7 @@ OPEN AND EDIT THE FILE "goke_update.html" :
 >{"url":"http://47.91.141.20/","ver":"V9.1.14.1.7"},
 >{"url":"http://47.91.141.20/","ver":"V11.1.8.1.4"},
 >{"url":"http://47.91.141.20/","ver":"V13.1.6.1.10"}
->]})
+>]}
 
 ## STEP 3 - CAMHI APP -> EXTRACT, DECOMPILE, EDIT, RECOMPILE 
 
@@ -51,9 +51,12 @@ DECOMPILE YOUR APK AND NAVIGATE TO THIS FILE :
 (/smali/com/thecamhi/activity/setting/SystemSettingActivity.smali)
 OPEN IT AND GO TO THE LINE 73
 
-EDIT (http://47.91.141.20/goke_update.html) TO (http://{server_ip_address}/goke_update.html)
+EDIT 
+>http://47.91.141.20/goke_update.html
+TO 
+>http://{server_ip_address}/goke_update.html
 
-(ex: http://192.168.1.19/goke_update.html")
+>ex: http://192.168.1.19/goke_update.html"
                                                 
 SAVE AND RECOMPILE THE APP, AND INSTALL IT
 OPEN IT, ADD YOUR SOFTWARE-BROKEN CAMERA, GO TO SYSTEM SETTINGS, AND UPDATE
