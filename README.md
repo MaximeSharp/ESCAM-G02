@@ -1,13 +1,11 @@
 # ESCAM-G02
 DEBUG_FIRMWARE_ESCAM_G02 for failed updates (losing features, like ONVIF or web interface) #edit 2017/11/23
 
-## STEP 1 - GET A WORKING FIRMWARE FILE
+## STEP 1 - Download the working firmware
 
-ESCAM FIRMWARE REPOSITORY : http://47.91.141.20/
-
-CAMHI APP WILL ASK THIS FILE : http://47.91.141.20/goke_update.html
-
-THIS FILE WILL RETURN SOMETHING LIKE THAT : 
+ESCAM Firmware repo : http://47.91.141.20/
+When pressing the update button (on CAMHI app), this url will be requested : http://47.91.141.20/goke_update.html
+And return a JSON(?) string : 
 
 >{"list":[
 >{"url":"http://47.91.141.20/","ver":"V9.1.4.1.25"},
@@ -20,14 +18,11 @@ THIS FILE WILL RETURN SOMETHING LIKE THAT :
 >{"url":"http://47.91.141.20/","ver":"V13.1.6.1.10"}
 >]
 
+Copy the content of this file to a notepad, we will need it later
 
-SAVE THIS FILE, WE WILL USE IT LATER
-
-FOR THE G02 MODEL, WE WANT THIS VERSION : V9.1.6.1.24
-
-TO DOWNLOAD THE FIRMWARE, WE NEED TO USE THIS REQUEST: >http://47.91.141.20/{firmware_version}.exe
-
->(ex: http://47.91.141.20/V9.1.6.1.24.exe)                                          
+For our ESCAM G02, we need this firmware version : V9.1.6.1.24
+To download a firmware from their server, we need to use the following request: http://47.91.141.20/{firmware_version}.exe
+So, in our case, we need to use that request : >http://47.91.141.20/V9.1.6.1.24.exe                                          
 
 ## STEP 2 - SETTING UP AN APACHE SERVER & CONFIGURATION
  
