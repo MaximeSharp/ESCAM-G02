@@ -56,7 +56,7 @@ Before | After
 - Open `SystemSettingActivity.smali`with an editor (like Notepad++)
 - Go to the line 28    
 - Edit  `http://47.91.141.20/goke_update.html` to `http://{your_apache_address}/goke_update.html`  
->ex: http://192.168.1.15/G02//goke_update.html
+>ex: http://192.168.1.15/G02/goke_update.html
 
 - Save your edit, recompile the APK, and install it on your smartphone
 - Open the app, add the softbrick G02, navigate to `System Settings` and `CHECK FOR UPDATES`  
