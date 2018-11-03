@@ -54,7 +54,7 @@ Before | After
 >/smali/com/hichip/thecamhi/activity/setting/
 
 - Open `SystemSettingActivity.smali`with an editor (like Notepad++)
-- Go to the line   
+- Go to the line 28    
 - Edit  `http://47.91.141.20/goke_update.html` to `http://{your_apache_address}/goke_update.html`  
 >ex: http://192.168.1.15/G02//goke_update.html
 
