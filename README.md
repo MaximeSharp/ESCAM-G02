@@ -54,10 +54,10 @@ Before | After
 >/smali/com/hichip/thecamhi/activity/setting/
 
 - Open `SystemSettingActivity.smali`with an editor (like Notepad++)
-- Go to the line 73  
-- Edit  `http://47.91.141.20/goke_update.html` to `http://{your_ip_address}/goke_update.html`  
->ex: http://192.168.1.19/goke_update.html
-                                                
+- Go to the line   
+- Edit  `http://47.91.141.20/goke_update.html` to `http://{your_apache_address}/goke_update.html`  
+>ex: http://192.168.1.15/G02//goke_update.html
+
 - Save your edit, recompile the APK, and install it on your smartphone
 - Open the app, add the softbrick G02, navigate to `System Settings` and `CHECK FOR UPDATES`  
 - If you do everything below this message, the app should popup a message saying that a new firmware is available, and asking you if you want to update. Click on `OK`, and let the G02 proceed to the update (When finished, the G02 should reboot automatically)
