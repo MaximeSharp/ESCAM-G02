@@ -69,5 +69,5 @@ Before | After
 - ###### If the app tell 'Connection Server Failed :  
 	- In **`STEP 2`**, you've probably put the files in the wrong folder : Follow **`STEP 2`** again.
  	- In **`STEP 3`**, you've probably put the wrong IP address in **`SystemSettingActivity.smali`** : Follow **`STEP 3`** again.
-- - ###### If the update failed :  
+- ###### If the update failed :  
  	- In **`STEP 2`**, you've probably edit the wrong version number in the **`exe`**  file : Edit it and test again.
