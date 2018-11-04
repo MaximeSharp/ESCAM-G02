@@ -48,7 +48,7 @@ DEBUG_FIRMWARE_ESCAM_G02 for failed updates (losing features, like ONVIF or web 
 
 - Copy the content of this file to a notepad, we will need it later  
 - For the G02, we need this firmware version : `V13.1.6.1.26`  
->Note : The firmware version **will** change when new updates will be published  
+>**Note :** The firmware version **will** change when new updates will be published  
 >           This tutorial is writen with the firmware version **`V13.1.6.1.26`** and working fine on **`2018/11/01`**  
 >           You **may** need to get the current firmware version (from the Device Information in CamHi app)
 
