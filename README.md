@@ -6,15 +6,24 @@ DEBUG_FIRMWARE_ESCAM_G02 for failed updates (losing features, like ONVIF or web 
 ---
  #### DISCLAIMER
  - **I'm not responsible if this didn't fix your G02**
- - **This tutorial may contain some errors (translations, firmware version, filepath, etc..)**  
+ - **This tutorial may contain some errors (translations, firmware version, filepath, etc..) or may be incomplete.**  
  - **All the following procedure was (re)tested before I wrote this tutorial and everything is working fine - _in my case_ -** 
  - **If you choose to follow this tutorial, you're the only responsible if any damage is done to your G02**
 ---
 
 #### Prerequisite
-- **The softbrick G02 must have the P2P option activated, otherwise, you can't access it with the CamHi app.**  
-- **The softbrick G02 must be accessible with CamHi app (or HiP2P Client on PC).**
+- **The softbrick G02 must have the P2P option activated.**  
+- **If the P2P option is activated, the G02 must be accessible with CamHi app (or HiP2P Client on PC).**
+- **Otherwise, if the G02 didn't have any access, this tutorial is useless for you.**
 
+
+### PRE-STEP 1
+- Before continue, you may try to do an update with the official [CamHi](https://play.google.com/store/apps/details?id=com.hichip) app :  
+	- Download the app from the Playstore  
+    - Add the softbrick G02  
+    - Navigate to **`Settings`**>**`System Setting`**>**`CHECK FOR UPDATES`**  
+- If the popup a message saying that a new firmware is available, and asking you if you want to update, click on `OK` then wait for the reboot. Your G02 should be fixed now !
+- Otherwise, if the app popup a message saying that the G02 is up to date, you can follow this tutorial.
 ### STEP 1 - Download the working firmware
 - ESCAM Firmware repo : `http://47.91.141.20/`  
 - When pressing the update button (on CAMHI app), this url will be requested : `http://47.91.141.20/goke_update.html`  
